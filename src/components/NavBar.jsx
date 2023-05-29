@@ -20,7 +20,7 @@ export default function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#home">Homee</Nav.Link>
             <Nav.Link href="#link">Skills</Nav.Link>
             <Nav.Link href="#link">Projects</Nav.Link>
           </Nav>
