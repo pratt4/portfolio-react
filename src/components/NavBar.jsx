@@ -40,7 +40,6 @@ export default function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-<<<<<<< HEAD
             <Nav.Link
               href="#home"
               className={
@@ -68,11 +67,6 @@ export default function NavBar() {
             >
               Projects
             </Nav.Link>
-=======
-            <Nav.Link href="#home">Homee</Nav.Link>
-            <Nav.Link href="#link">Skills</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
->>>>>>> d22a6fc097dafd7a63701caa3da1c0c5ec87a66e
           </Nav>
 
           <span className="navbar-text">
