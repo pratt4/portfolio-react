@@ -1,10 +1,24 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from 'react-bootstrap';
-import meter1 from '../assets/img/meter1.svg';
-import meter2 from '../assets/img/meter2.svg';
-import meter3 from '../assets/img/meter3.svg';
+
+import cpp from '../assets/img/cpp.svg';
+import react from '../assets/img/react.svg'
+import sql from '../assets/img/sql.svg';
+import java from '../assets/img/java.svg';
+import html from '../assets/img/html.svg';
+import css from '../assets/img/css.svg';
+import javascript from '../assets/img/javascript.svg';
+import keras from '../assets/img/keras-red.svg';
+import python from '../assets/img/python.svg';
+import pytorch from '../assets/img/pytorch.svg';
+import tensorflow from '../assets/img/tensorflow.svg';
+
+
 import colorSharp from '../assets/img/color-sharp.png';
+
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 export default function Skills() {
 
@@ -34,26 +48,64 @@ export default function Skills() {
         <Row>
           <Col>
           <div className="skill-bx">
-             <h2>Skills</h2>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque dolorum eum ipsam sequi, praesentium inventore voluptatem error! Quae sit deserunt tempora, eum quidem dolore voluptates consectetur non nesciunt quam.</p>
-             <Carousel responsive={responsive} infinite={true} className="skill-slider">
+          <TrackVisibility>
+              {({ isVisible }) => (
+                <div className={isVisible? "animate__animated animate__heartBeat" : ""}>
+
+                <h2>Skills</h2>
+                </div>
+              )}
+            </TrackVisibility>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque dolorum eum ipsam sequi, praesentium inventore voluptatem error! Quae sit deserunt tempora, eum quidem dolore voluptates consectetur non nesciunt quam.</p>
+              <TrackVisibility>
+              {({ isVisible }) => (
+             <Carousel responsive={responsive} infinite={true} className={isVisible?"skill-slider animate__animated animate__shakeX  animate__delay-2s":"skill-slider "}>
               <div className="item">
-                <img src={meter1} alt="image" />
-                <h5>web developer</h5>
+                <img src={cpp} alt="image" />
+                <h5>C/C++</h5>
               </div>
               <div className="item">
-                <img src={meter2} alt="image" />
-                <h5>Student</h5>
+                <img src={react} alt="image" />
+                <h5>React</h5>
               </div>
               <div className="item">
-                <img src={meter3} alt="image" />
-                <h5>logo design</h5>
+                <img src={sql} alt="image" />
+                <h5>SQL</h5>
               </div>
               <div className="item">
-                <img src={meter1} alt="image" />
-                <h5>abc</h5>
+                <img src={javascript} alt="image" />
+                <h5>JavaScript</h5>
               </div>
-             </Carousel>
+              <div className="item">
+                <img src={html} alt="image" />
+                <h5>HTML</h5>
+              </div>
+              <div className="item">
+                <img src={css} alt="image" />
+                <h5>CSS</h5>
+              </div>
+              <div className="item">
+                <img src={python} alt="image" />
+                <h5>Python</h5>
+              </div>
+              <div className="item">
+                <img src={tensorflow} alt="image" />
+                <h5>TensorFlow</h5>
+              </div>
+              <div className="item">
+                <img src={keras} alt="image" />
+                <h5>keras</h5>
+              </div>
+              <div className="item">
+                <img src={pytorch} alt="image" />
+                <h5>Pytorch</h5>
+              </div>
+              <div className="item">
+                <img src={java} alt="image" />
+                <h5>Java</h5>
+              </div>
+             </Carousel>)}
+             </TrackVisibility>
           </div>
           </Col>
         </Row>
