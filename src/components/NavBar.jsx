@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../assets/img/logo.svg";
+
+
+import git4 from "../assets/img/git4.svg";
 import navicon1 from "../assets/img/nav-icon1.svg";
-import navicon2 from "../assets/img/nav-icon2.svg";
 import navicon3 from "../assets/img/nav-icon3.svg";
 
 export default function NavBar() {
@@ -29,12 +29,12 @@ export default function NavBar() {
     setActiveLink(value);
   }
 
+  
+
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" />
-        </Navbar.Brand>
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
@@ -50,7 +50,7 @@ export default function NavBar() {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#link"
+              href="#skills"
               className={
                 activelink === "skills" ? "active navbar-link" : "navbar-link"
               }
@@ -59,7 +59,7 @@ export default function NavBar() {
               Skills
             </Nav.Link>
             <Nav.Link
-              href="#link"
+              href="#project"
               className={
                 activelink === "projects" ? "active navbar-link" : "navbar-link"
               }
@@ -67,24 +67,36 @@ export default function NavBar() {
             >
               Projects
             </Nav.Link>
+            <Nav.Link
+              href="https://drive.google.com/file/d/1mtylFt8zw10ipMVZgww7ryec_ilrcpXE/view?usp=sharing"
+              target="_blank"
+              className="navbar-link"
+            
+            >
+              MyResume
+            </Nav.Link>
           </Nav>
 
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
-                <img src={navicon1} alt="github" />
+            <a href="https://github.com/pratt4 " target="_blank" rel="noreferrer">
+                <img src={git4} alt="linkedIn" />
               </a>
-              <a href="#">
-                <img src={navicon2} alt="linkedin" />
+              
+              <a href="https://www.linkedin.com/in/pratik-katti-b46777242/ " target="_blank" rel="noreferrer">
+                <img src={navicon1} alt="linkedIn" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/pratt.7/" target="_blank" rel="noreferrer" >
                 <img src={navicon3} alt="instagram" />
               </a>
 
               <button
                 className="vvd"
                 onClick={() => {
-                  console.log("hello");
+                  const connectSection = document.getElementById("connect");
+                  if (connectSection) {
+                    connectSection.scrollIntoView({ behavior: "smooth" });
+                  }
                 }}
               >
                 <span>let's connect</span>
