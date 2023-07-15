@@ -56,7 +56,7 @@ export default function Skills() {
                 </div>
               )}
             </TrackVisibility>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque dolorum eum ipsam sequi, praesentium inventore voluptatem error! Quae sit deserunt tempora, eum quidem dolore voluptates consectetur non nesciunt quam.</p>
+              <p>I have acquired a diverse range of skills and knowledge in various programming languages. Through my academic journey and personal exploration, I have developed a strong foundation in these areas.</p>
               <TrackVisibility>
               {({ isVisible }) => (
              <Carousel responsive={responsive} infinite={true} className={isVisible?"skill-slider animate__animated animate__shakeX  animate__delay-2s":"skill-slider "}>

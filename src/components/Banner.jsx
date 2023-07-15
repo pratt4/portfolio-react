@@ -78,10 +78,8 @@ export default function Banner() {
             </TrackVisibility>
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              eius nisi numquam dolores libero nobis dicta sapiente debitis rem
-              quasi? Veniam ullam cum dicta voluptas sit impedit? Temporibus,
-              nobis culpa.
+            I am a final year engineering student and a passionate programmer who is inclined toward exploring new technologies such as web development and machine learning.
+            I enjoy learning about the latest advancements and applying them in practical projects.
             </p>
             <TrackVisibility>
               {({ isVisible }) => (

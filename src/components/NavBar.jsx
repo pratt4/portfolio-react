@@ -4,10 +4,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import logo from "../assets/img/logo.svg";
+
 import git4 from "../assets/img/git4.svg";
 import navicon1 from "../assets/img/nav-icon1.svg";
-import navicon2 from "../assets/img/nav-icon2.svg";
 import navicon3 from "../assets/img/nav-icon3.svg";
 
 export default function NavBar() {
@@ -35,9 +34,7 @@ export default function NavBar() {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        {/* <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" />
-        </Navbar.Brand> */}
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
@@ -74,10 +71,7 @@ export default function NavBar() {
               href="https://drive.google.com/file/d/1mtylFt8zw10ipMVZgww7ryec_ilrcpXE/view?usp=sharing"
               target="_blank"
               className="navbar-link"
-              // className={
-              //   activelink === "resume" ? "active navbar-link" : "navbar-link"
-              // }
-              // onClick={()=>{onUpdateActiveLink('resume')}}
+            
             >
               MyResume
             </Nav.Link>

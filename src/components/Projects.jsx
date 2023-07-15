@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import algorithmvisualizer from '../assets/img/algorithmvisualizer.png'
 import bikerental from '../assets/img/bikerental.png'
 import chatapplicationcli from '../assets/img/chatapplicationcli.png'
@@ -53,7 +54,7 @@ export default function Projects() {
         link:"https://github.com/pratt4/railway-reservation-system-c"
       },
       {
-        title: "Student Management System",
+        title: "Microservice Communication",
         description: "Microservice Communication using RabbitMQ",
         imgUrl: microservices,
         link:"https://github.com/pratt4/Microservice-communication-with-RabbitMQ-PES1UG20CS577"
@@ -121,7 +122,7 @@ export default function Projects() {
                   <div>
 
                   <h2 className={isVisible?'animate__animated animate__jello animate__delay-1s':""}>Projects</h2>
-                <p className={isVisible?"animate__animated animate__fadeIn":""}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industr s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p className={isVisible?"animate__animated animate__fadeIn":""}>I have worked on diverse projects during my academic journey and personal pursuits. These include web development,deep learning and database projects. These experiences have further enhanced my problem-solving abilities and expanded my skillsets.For more projects visit my GitHub where each project is accompanied by documentation and organized code. </p>
                   </div>
                 )}
                 </TrackVisibility>
@@ -151,6 +152,8 @@ export default function Projects() {
                           })
                         }
                       </Row>
+                      
+                      <p >I have hosted some of my projects online, allowing you to directly access and explore them by clicking on the project links. These hosted projects provide an interactive experience where you can see the functionalities and features in action. For other projects that are not hosted online, you can still access their documentation and code on GitHub by clicking on the respective project.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <Row>
@@ -164,7 +167,7 @@ export default function Projects() {
                           })
                         }
                       </Row>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>You can click on the projects to directly access the corresponding GitHub repositories . Each Project is accompanied by documentation and organized code . where you can explore the code, documentation, and even contribute to the projects if you'd like.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <Row>
@@ -178,7 +181,7 @@ export default function Projects() {
                           })
                         }
                       </Row>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>You can click on the projects to directly access the corresponding GitHub repositories. Each Project is accompanied by documentation and organized code. where you can explore the code, documentation, and even contribute to the projects if you'd like.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
