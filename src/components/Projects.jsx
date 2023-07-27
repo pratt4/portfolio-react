@@ -27,7 +27,7 @@ export default function Projects() {
         title: "Imperial Clothing",
         description: "Online Clothing Website",
         imgUrl: clothing,
-        link:"https://imperialclothingpratik.netlify.app/",
+        link:"https://imperialclothingbypratik.netlify.app/",
       },
       {
         title: "Anomaly Detection",
