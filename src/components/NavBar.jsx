@@ -73,7 +73,7 @@ export default function NavBar() {
               className="navbar-link"
             
             >
-              MyResume
+              My Resume
             </Nav.Link>
           </Nav>
 
