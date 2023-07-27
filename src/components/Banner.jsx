@@ -62,7 +62,7 @@ export default function Banner() {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? "animate__animated animate__bounce animate__delay-1s" : ""
+                    isVisible ? "animate__animated animate__zoomInDown animate__delay-1s" : ""
                   }
                 >
                   <h1>
