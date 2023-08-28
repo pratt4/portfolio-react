@@ -68,7 +68,7 @@ export default function NavBar() {
               Projects
             </Nav.Link>
             <Nav.Link
-              href="https://drive.google.com/file/d/1wbEdfpF7RN6Tt6Y6UhFqiuZAOlFwTGNj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Rq2gCVcZWiYQjYyjy5KJDzTAuAThQ9cx/view?usp=sharing"
               target="_blank"
               className="navbar-link"
             
