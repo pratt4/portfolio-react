@@ -67,14 +67,6 @@ export default function NavBar() {
             >
               Projects
             </Nav.Link>
-            <Nav.Link
-              href="https://drive.google.com/file/d/1Rq2gCVcZWiYQjYyjy5KJDzTAuAThQ9cx/view?usp=sharing"
-              target="_blank"
-              className="navbar-link"
-            
-            >
-              My Resume
-            </Nav.Link>
           </Nav>
 
           <span className="navbar-text">
